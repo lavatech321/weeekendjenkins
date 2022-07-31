@@ -1,0 +1,13 @@
+version: '3'
+services: 
+  web:
+    image: jenkins:akash
+    stdin_open: true
+    tty: true
+    command: /bin/bash
+  
+  webdb:
+    image: jenkins:akash
+    stdin_open: true
+    tty: true
+    command: /bin/bash

@@ -1,13 +1,13 @@
 version: '3'
 services: 
   web:
-    image: jenkins:akash
+    image: sanket:docker
     stdin_open: true
     tty: true
     command: /bin/bash
   
   webdb:
-    image: jenkins:akash
+    image: sanket:docker
     stdin_open: true
     tty: true
     command: /bin/bash

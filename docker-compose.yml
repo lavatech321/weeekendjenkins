@@ -1,13 +1,13 @@
 version: '3'
 services: 
   web:
-    image: sanket:docker
+    image: centos
     stdin_open: true
     tty: true
     command: /bin/bash
   
   webdb:
-    image: sanket:docker
+    image: fedora
     stdin_open: true
     tty: true
     command: /bin/bash
